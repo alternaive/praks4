@@ -217,11 +217,29 @@ width:100vw;
 	
 }
 
-.clearfix::after 
+footer {
+	margin-top:100px;
+	position: relative;
+    text-align:center;
+	}
+
+.footer ul {
+	list-style:none;
+	margin-left:460px;
+
+}
+
+.icons img {
+   
+    margin-bottom: 10px;
+	width:30px;
+	height:auto;
+	display:inline-block;
+}
+
 .copyright {
-	display:block;
-    text-align: center;
-    margin-top: 20px;
-	padding-right:50%;
-	padding-left:50%;
+    font-size: 20px;
+    font-weight: 400;
+   
+    margin-bottom: 30px;
 }
